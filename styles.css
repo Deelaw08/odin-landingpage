@@ -3,24 +3,6 @@
   padding: 0;
 }
 
-/* .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* flex-wrap: wrap; */
-/* gap: 8px; */
-
-/* height: 100vh; */
-/* .items {
-  height: 100px;
-  padding: 20px;
-  margin: 0px;
-  border: 5px solid transparent;
-  background-color: white;
-  flex: 1;
-} */
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -73,6 +55,7 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 18px;
   color: #e5e7eb;
+  padding-right: 100px;
 }
 
 .signup {
@@ -94,11 +77,8 @@
   font-weight: 900;
 }
 
-.Links {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 100px;
+.section-2 {
+  margin-bottom: 80px;
 }
 
 .quote {
@@ -142,4 +122,13 @@
   background-color: #e5e7eb;
   padding-left: 400px;
   padding-right: 400px;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+
+.contact-me h3 {
 }
